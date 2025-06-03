@@ -2072,6 +2072,8 @@ a {
   box-shadow: 0 4px 15px rgba(217, 93, 57, 0.4);
   transform: scale(1.1);
   font-size: 4vw;
+  pointer-events: auto !important;
+  cursor: pointer;
 }
 
 .hero-buy-btn:hover {
@@ -2085,6 +2087,11 @@ a {
   color: var(--_color-palette---background-color--primary);
   font-weight: 900;
   text-transform: uppercase;
+  pointer-events: auto;
+}
+
+.hero-buy-btn .btn__container {
+  pointer-events: auto;
 }
 
 
