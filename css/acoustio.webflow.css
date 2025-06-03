@@ -1075,6 +1075,7 @@ a {
   height: auto;
   padding: 10px 25px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .image-17 {
@@ -2049,6 +2050,8 @@ a {
   text-transform: uppercase;
   transition: all 0.3s ease;
   box-shadow: 0 2px 8px rgba(226, 178, 90, 0.3);
+  order: -1;
+  margin-right: 10px;
 }
 
 .buy-button:hover {
