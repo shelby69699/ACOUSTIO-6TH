@@ -1148,7 +1148,6 @@ a {
 
 .text-block-18 {
   color: var(--_color-palette---background-color--secondary);
-  text-decoration: line-through;
   transition: color .2s ease-in;
 }
 
