@@ -2040,4 +2040,27 @@ a {
   }
 }
 
+.buy-button {
+  background-color: var(--_color-palette---colors--yellow);
+  color: var(--_color-palette---background-color--primary);
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(226, 178, 90, 0.3);
+}
+
+.buy-button:hover {
+  background-color: var(--_color-palette---colors--orange);
+  color: var(--_color-palette---background-color--primary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(217, 93, 57, 0.4);
+  text-decoration: none;
+}
+
+.buy-button .text-block-18 {
+  color: inherit;
+}
+
 
