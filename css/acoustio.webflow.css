@@ -2066,4 +2066,25 @@ a {
   color: inherit;
 }
 
+.hero-buy-btn {
+  background-color: var(--_color-palette---colors--orange);
+  border: 3px solid var(--_color-palette---colors--yellow);
+  box-shadow: 0 4px 15px rgba(217, 93, 57, 0.4);
+  transform: scale(1.1);
+  font-size: 4vw;
+}
+
+.hero-buy-btn:hover {
+  background-color: var(--_color-palette---colors--red);
+  border-color: var(--_color-palette---colors--orange);
+  transform: scale(1.15) translateY(-3px);
+  box-shadow: 0 6px 20px rgba(210, 58, 18, 0.5);
+}
+
+.hero-buy-btn .btn__span {
+  color: var(--_color-palette---background-color--primary);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
 
